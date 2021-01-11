@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Tira la Moneda y ve que sale</h1>
+        <h2>Cara o Seca</h2>
+        <div class="padre_moneda">
+            <img src="2015_Truman_Coin.png" class="moneda" alt="Moneda_png">
+        </div>
+
+        <div class="padre"></div>
+
+        <!--CSS-->
+        <style>
+
+            body{
+                background: rgb(33, 34, 34);
+                color: #ece6e6;
+                font-size: 1.6em;
+            }
+            h1{
+                text-align: center;
+                margin: 0;
+            }
+            h2{
+                text-align: center;
+                border-bottom: 1px solid silver;
+                margin: 0;
+            }
+            .one{
+                display: inline;
+                color: goldenrod;
+                margin: 0 5px;
+            }
+            .two{
+                display: inline;
+                color: silver;
+                margin: 0 5px;
+                
+
+            }
+            .moneda{
+                
+                height: 100px;
+                width: 100px;
+                border-radius: 100%;
+                
+                
+            }
+            .moneda:hover{
+                cursor: pointer;
+            }
+
+            .padre{
+                display : flex;
+                padding : 5px;
+                flex-wrap : wrap;
+                border : 1px solid silver;
+                width : 60%;
+                margin : 0 auto;
+            }
+        </style>
+
+
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
