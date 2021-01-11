@@ -1,1 +1,1 @@
-Hola kros como estan
+Pagina basada en la logica donde se puede apreciar el uso de los numeros random.
