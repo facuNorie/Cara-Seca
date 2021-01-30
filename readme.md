@@ -1,1 +1,1 @@
-Pagina basada en la logica donde se puede apreciar el uso de los numeros random.
+Algoritmo basado en la logica de funciones, creacion de elementos. Que simula devolver una u otra cara de una moneda 
